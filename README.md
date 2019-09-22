@@ -1,1 +1,1 @@
-# goit_core
+# vlad-fe_core23
