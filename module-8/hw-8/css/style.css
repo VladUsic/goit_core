@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: montserrat, sans-serif;
+    src: url(../fonts/montserrat-v14-latin_cyrillic-700.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: montserrat-regular, sans-serif;
+    src: url(../fonts/montserrat-v14-latin_cyrillic-regular.woff2);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: roboto, sans-serif;
+    src: url(../fonts/roboto-v20-latin_cyrillic-300.woff2);
+    font-weight: 300;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.first-block {
+    margin-bottom: 60px;
+}
+
+.slider {
+    margin: 0 auto;
+}
+
+.log-in {
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background: none;
+}
+
+.log-in:hover {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.sign-up {
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: none;
+    margin: 20px 20px;
+}
+
+.sign-up:hover {
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: montserrat, sans-serif;
+    color: #fff;
+}
+
+.logo:hover {
+    box-shadow: 0 0 2px 2px rgb(51, 51, 51);
+    color: palevioletred;
+}
+
+.holiday_dreams {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: montserrat, sans-serif;
+    color: #fff;
+    font-size: 30px;
+}
+
+.perfect_partner {
+    font-size: 18px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    margin: 0 50px;
+}
+
+.third-but {
+    padding: 10px 50px;
+    background: rgb(255, 78, 80);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.third-but:hover {
+    box-shadow: 0 0 2px 2px rgb(51, 51, 51);
+    color: palevioletred;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 175px;
+    margin-top: 40px;
+}
+
+.image-foto {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.item {
+    list-style: none;
+    width: 242px;
+    margin: 0 auto;
+}
+
+.image-foto::after {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.television::after {
+    background: rgb(255, 78, 80);
+    background-image: url(../img/icons/1.icon-tv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coffee::after {
+    background: #ffa507;
+    background-image: url(../img/icons/2.icon-coffee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.beaker::after {
+    background: #1cd7ad;
+    background-image: url(../img/icons/3.icon-beaker.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.plane::after {
+    background: #4e73db;
+    background-image: url(../img/icons/4.icon-plane.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.best-holiday {
+    text-align: center;
+    margin: 20px 15px;
+    font-family: montserrat, sans-serif;
+    font-size: 22px;
+}
+
+.name {
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 3;
+    text-align: center;
+    color: rgb(51, 51, 51);
+}
+
+.hobby {
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 15px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 30px;
+}
+
+.content-but {
+    padding: 8px 74px;
+    margin-bottom: 60px;
+    border: 2px solid rgb(255, 78, 80);
+    background: none;
+    color: rgb(255, 78, 80);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content-but:hover {
+    box-shadow: 0 0 2px 2px rgb(51, 51, 51);
+    color: palevioletred;
+}
+
+.but-center {
+    text-align: center;
+}
+
+@media (max-width: 699px) {
+    .first-block {
+        height: 540px;
+        background-image: url(../img/mobile/mobile-jpg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .slider {
+        max-width: 320px;
+        padding-bottom: 40px;
+    }
+    .knopki {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-bottom: 90px;
+    }
+    .logo {
+        margin-left: 70px;
+    }
+    .perfect_partner {
+        padding-bottom: 20px;
+        padding-top: 40px;
+    }
+}
+
+@media (min-width: 700px) {
+    .first-block {
+        background-image: url(../img/tablet/tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slider {
+        max-width: 748px;
+        height: 700px;
+        position: relative;
+    }
+    .knopki {
+        position: absolute;
+        right: 40px;
+        top: 20px;
+    }
+    .logo {
+        position: absolute;
+        left: 40px;
+        top: 50px;
+    }
+    .holiday_dreams {
+        text-align: center;
+        font-size: 52px;
+    }
+    .holiday_dreams {
+        padding-top: 228px;
+        padding-bottom: 40px;
+        width: 490px;
+        height: 240px;
+        margin: 0 auto;
+    }
+    .best-holiday {
+        margin-bottom: 40px;
+    }
+    .item {
+        width: 240px;
+    }
+    .item:not(:nth-child(2n)) {
+        margin-bottom: 50px;
+    }
+    .section-flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 492px;
+        height: 540px;
+        margin: 0 auto;
+    }
+    .content-but {
+        margin-top: 30px;
+    }
+    .perfect_partner {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 942px) {
+    .first-block {
+        background-image: url(../img/desktop/main_jpg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .slider {
+        max-width: 942px;
+        height: 700px;
+    }
+    .container {
+        max-width: 942px;
+    }
+    .knopki {
+        right: 0;
+        top: 20px;
+    }
+    .logo {
+        left: 0px;
+        top: 50px;
+    }
+    .item {
+        width: 224px;
+    }
+    .section-flex {
+        display: flex;
+        flex-direction: row;
+        height: 270px;
+    }
+    .Lucas {
+        order: 1;
+    }
+    .Bradley-girl {
+        order: 2;
+    }
+}

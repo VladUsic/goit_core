@@ -1,0 +1,63 @@
+.footer {
+  border-top: 1px solid #e5e5e5;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer__paragraph {
+  font-size: 14px;
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer__laaqiq {
+  color: #e02f2f;
+}
+.footer__laaqiq:hover {
+  -webkit-box-shadow: 0 0 3px 3px #000;
+          box-shadow: 0 0 3px 3px #000;
+}
+.footer__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 380px;
+  border: 1px solid #7d7b7b;
+  background-color: #fff;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: #7d7b7b;
+}
+.footer__Subscribe {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  width: 150px;
+  font-size: 14px;
+  line-height: 2.5;
+  background-color: #21efc9;
+  height: 38px;
+  text-transform: uppercase;
+  padding: 0 30px;
+  color: #fff;
+}
+.footer__Subscribe:hover {
+  -webkit-box-shadow: 0 0 3px 3px #000;
+          box-shadow: 0 0 3px 3px #000;
+}
+  

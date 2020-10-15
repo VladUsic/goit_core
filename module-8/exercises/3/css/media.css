@@ -1,0 +1,39 @@
+@media(min-width:480px) {
+    .red {
+        background-color: red;
+        width: 480px;
+        height: 500px;
+    }
+    .green {
+        background-color: green;
+        width: 480px;
+        height: 500px;
+    }
+    .blue {
+        background-color: blue;
+        width: 480px;
+        height: 500px;
+    }
+}
+
+@media(min-width:768px) {
+    .red {
+        background-color: red;
+        width: 480px;
+        height: 500px;
+    }
+    .green {
+        background-color: green;
+        width: 240px;
+        height: 700px;
+    }
+    .blue {
+        background-color: blue;
+        width: 240px;
+        height: 700px;
+    }
+    .second {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

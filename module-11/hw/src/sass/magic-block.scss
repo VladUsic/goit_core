@@ -1,0 +1,73 @@
+.block-magiс {
+  height: 625px;
+  width: 380px;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 300ms;
+}
+
+.block-magiс__hide {
+  width: 380px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background-color: $svg-color;
+  transition-duration: 300ms;
+}
+
+.block-magiс__man {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  opacity: 0;
+}
+
+.block-magic__box-hover {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  height: 470px;
+  width: 380px;
+  transition-duration: 300ms;
+}
+
+.block-magiс:hover .block-magiс__hide {
+  opacity: 1;
+  transition-duration: 300ms;
+}
+
+.block-magiс:hover .block-magic__box-hover {
+  background-image: linear-gradient(
+    to top,
+    rgba(252, 227, 138, 0.9),
+    rgba(243, 129, 129, 0.9)
+  );
+  transition-duration: 300ms;
+}
+
+.block-magiс:hover .block-magiс__man {
+  opacity: 1;
+  transition-duration: 300ms;
+}
+
+.block-magiс__name {
+  text-transform: uppercase;
+  font-family: $font-montserrat;
+  font-size: 14px;
+  text-align: center;
+  padding: 25px 0 20px 0;
+  color: $primary-color;
+  line-height: 1.5;
+}
+
+.block-magiс__profession {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: $font-robot;
+  font-style: italic;
+  font-weight: 300;
+  color: $borders-color;
+  text-align: center;
+  padding-bottom: 80px;
+}

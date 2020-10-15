@@ -1,0 +1,31 @@
+.block-icon {
+  height: 56px;
+  width: 224px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+  transition-duration: 300ms;
+
+  &__socials {
+    margin: -1.5px;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: $header-hover-color;
+    opacity: 0;
+    transition-duration: 300ms;
+    fill: $icons-back-color;
+  }
+
+  &__socials:hover {
+    background-color: $icons-back-color;
+    transition-duration: 300ms;
+    fill: $main-color;
+  }
+}
+
+.block-magiс:hover .block-icon__socials {
+  opacity: 1;
+  transition-duration: 300ms;
+}

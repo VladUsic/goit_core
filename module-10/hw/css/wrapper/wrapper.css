@@ -1,0 +1,50 @@
+.wrapper {
+  height: 1000px;
+  max-width: 1920px;
+  background-image: url(../../img/wrap-fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrapper {
+    background-image: url(../../img/wrap-fon@2x.jpg);
+  }
+}
+.wrapper__top-text {
+  font-size: 72px;
+  font-family: "Kaushan Script", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+.wrapper__center-text {
+  font-size: 150px;
+  font-family: "montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 800px;
+  line-height: 0.9;
+  color: #fff;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.wrapper__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 560px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}

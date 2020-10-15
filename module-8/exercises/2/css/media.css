@@ -1,0 +1,24 @@
+@media(min-width:480px) {
+    .content {
+        width: 480px;
+        height: 500px;
+        background-color: sandybrown;
+    }
+    .sidebar {
+        width: 480px;
+        height: 500px;
+        background-color: greenyellow;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        display: flex;
+    }
+    .content {
+        width: 768px;
+    }
+    .sidebar {
+        width: 300px;
+    }
+}

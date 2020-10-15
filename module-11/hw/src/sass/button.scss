@@ -1,0 +1,12 @@
+.button {
+  padding: 12px 40px;
+  color: $main-color;
+  text-transform: uppercase;
+  background: none;
+  border: 3px solid $main-color;
+}
+
+.button:hover {
+  box-shadow: 0 0 3px 3px $dark-color;
+  color: $dark-color;
+}

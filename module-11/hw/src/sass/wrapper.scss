@@ -1,0 +1,36 @@
+.wrapper {
+  height: 1000px;
+  max-width: 1920px;
+  background-image: url(../images/wrap-fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  height: 560px;
+  justify-content: space-between;
+  align-items: center;
+
+  &__top {
+    font-size: 72px;
+    font-family: $font-kaushan, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: $main-color;
+  }
+
+  &__center {
+    font-size: 150px;
+    font-family: $font-montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 800px;
+    line-height: 0.9;
+    color: $main-color;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+}

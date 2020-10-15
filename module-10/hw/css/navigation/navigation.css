@@ -1,0 +1,33 @@
+.navigation__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navigation__item {
+  list-style: none;
+}
+.navigation__link {
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "montserrat", sans-serif;
+  font-weight: 400;
+}
+.navigation__item:not(:last-child) {
+  margin-right: 50px;
+}
+.navigation__link:hover {
+  border-bottom: 3px solid #fce38a;
+  padding-bottom: 10px;
+  color: #fce38a;
+}
+
+.navigation__img {
+  fill: #fff;
+  width: 18px;
+  height: 18px;
+}
+.navigation__img:hover {
+  fill: #fce38a;
+}

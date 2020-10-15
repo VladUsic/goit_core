@@ -1,0 +1,94 @@
+.block-magiс {
+  height: 625px;
+  width: 380px;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+.block-magiс__hide {
+  width: 380px;
+  height: 470px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background-color: #95e1d3;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.block-magiс__man {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  opacity: 0;
+}
+.block-magic__box-hover {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  height: 470px;
+  width: 380px;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.block-magiс:hover .block-magiс__hide {
+  opacity: 1;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+.block-magiс:hover .block-magic__box-hover {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom, left top,
+    from(rgba(252, 227, 138, 0.9)),
+    to(rgba(243, 129, 129, 0.9))
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgba(252, 227, 138, 0.9),
+    rgba(243, 129, 129, 0.9)
+  );
+  background-image: linear-gradient(
+    to top,
+    rgba(252, 227, 138, 0.9),
+    rgba(243, 129, 129, 0.9)
+  );
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+
+.block-magiс:hover .block-magiс__man {
+  opacity: 1;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+.block-magiс__name {
+  text-transform: uppercase;
+  font-family: "montserrat";
+  font-size: 14px;
+  text-align: center;
+  padding: 25px 0 20px 0;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.block-magiс__profession {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  color: #999999;
+  text-align: center;
+  padding-bottom: 80px;
+
+}
+

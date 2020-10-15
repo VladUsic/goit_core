@@ -1,0 +1,15 @@
+body {
+    display: flex;
+}
+
+.sidebar {
+    background-color: green;
+    height: 400px;
+    width: 150px;
+}
+
+.content {
+    background-color: yellow;
+    width: 600px;
+    height: 400px;
+}

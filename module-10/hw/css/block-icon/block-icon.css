@@ -1,0 +1,38 @@
+.block-icon {
+  height: 56px;
+  width: 224px;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+}
+.block-icon__socials {
+  margin: -1.5px;
+  width: 55px;
+  height: 55px;
+  border: none;
+  background-color: #fce38a;
+  opacity: 0;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+  fill: #f38181;
+}
+.block-icon__socials:hover {
+  background-color: #f38181;
+  -webkit-transition-duration: 300ms;
+       -o-transition-duration: 300ms;
+          transition-duration: 300ms;
+  fill: #fff;
+}
+.block-magiс:hover .block-icon__socials {
+    opacity: 1;
+    -webkit-transition-duration: 300ms;
+         -o-transition-duration: 300ms;
+            transition-duration: 300ms;
+  }

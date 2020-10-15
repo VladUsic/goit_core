@@ -1,0 +1,54 @@
+.footer {
+  border-top: 1px solid $borders-color;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__paragraph {
+    font-size: 14px;
+    font-family: $font-montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  &__red-word {
+    color: $red;
+  }
+
+  &__red-word:hover {
+    box-shadow: 0 0 3px 3px $dark-color;
+  }
+
+  &__Subscribe {
+    font-family: $font-montserrat, sans-serif;
+    font-weight: bold;
+    width: 150px;
+    font-size: 14px;
+    line-height: 2.5;
+    background-color: $svg-color;
+    height: 38px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    color: $main-color;
+  }
+
+  &__Subscribe:hover {
+    box-shadow: 0 0 3px 3px $dark-color;
+  }
+}
+
+.button-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 380px;
+  border: 1px solid $borders-color;
+  background-color: $main-color;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: $borders-color;
+}

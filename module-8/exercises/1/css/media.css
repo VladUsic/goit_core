@@ -1,7 +1,40 @@
-body {
-    width: 600px;
-}
-
-.images {
-    display: flex;
+@media(max-width:960px) {
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+    /* .container {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    } */
+    .img-1,
+    .img-5 {
+        width: 960%;
+        /* flex-wrap: wrap; */
+    }
+    .img-2 {
+        width: 520%;
+    }
+    .img-3 {
+        width: 200%;
+    }
+    .img-4 {
+        width: 200%;
+    }
+    .images {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .center {
+        display: flex;
+    }
+    img {
+        width: 100%;
+    }
+    body {
+        width: 600px;
+    }
 }
